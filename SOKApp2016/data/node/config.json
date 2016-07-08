@@ -1,0 +1,24 @@
+{
+  "node" : {
+    "featuresNames" : [
+        "naziv1", 
+        "naziv2"
+      ],
+    "parameters" : {
+    	"name" : "String"
+    }
+  }
+}
+
+{
+  "core" : {
+    "sources" : [
+        "naziv1", 
+        "naziv2"
+      ],
+    "visualizators" : [
+        "naziv1", 
+        "naziv2"
+      ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "node" : {
+    "featuresNames" : [
+        "name", 
+        "description",
+	"version",
+	"author",
+	"license",
+	"repository",
+	"keywords",
+	"id"
+      ],
+    "parameters" : {
+    	"name" : "String"
+    }
+  }
+}
+

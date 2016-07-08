@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ManhattenVisualiser
+Bundle-SymbolicName: ManhattenVisualiser
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: manhattenvisualiser.Activator
+Bundle-Vendor: FTN
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: graph.models,
+ components,
+ org.eclipse.zest.core.widgets,
+ org.osgi.framework;version="1.3.0"
+Require-Bundle: 
+ org.eclipse.zest.layouts;bundle-version="2.0.0",
+ org.eclipse.zest.core;bundle-version="2.0.0",
+ org.eclipse.draw2d;bundle-version="3.7.0"
+Bundle-ActivationPolicy: lazy
